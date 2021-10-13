@@ -5,8 +5,8 @@ var timer = setInterval(timeTracker, 1000)
 
 // Displays the time and date format
 function timeTracker() {
-var currentDate = moment().format('MMMM Do YYYY, h:mm:ss a');
-$("#currentDay").html(currentDate);
+    var currentDate = moment().format('MMMM Do YYYY, h:mm:ss a');
+    $("#currentDay").html(currentDate);
 }
 
 // Enables the text to be saved in the specific time parameter 
@@ -24,7 +24,7 @@ $(document).ready(function () {
         localStorage.setItem(time, text);
     })
 
-// Enables the time blocks to function and indicate past, present and future blocks
+    // Enables the time blocks to function and indicate past, present and future blocks
 
     function timeKeeper() {
         //get current number of hours.
