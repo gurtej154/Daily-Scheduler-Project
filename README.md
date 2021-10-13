@@ -22,7 +22,7 @@ The following screenshot showcases the Daily Work Scheduler and its functioning 
 ## Website
 
 To access the webapp of the Daily Work Scheduler, please click on the following link: 
-https://gurtej154.github.io/KeyGen-project/
+https://gurtej154.github.io/Daily-Scheduler-Project/
 
 ## License
 Copyright (c) 2021 Gurtej Singh
