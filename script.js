@@ -1,7 +1,11 @@
 // Enables the current date, day and time to display
 
+var timer = setInterval(timeTracker, 1000)
+
+function timeTracker() {
 var currentDate = moment().format('MMMM Do YYYY, h:mm:ss a');
 $("#currentDay").html(currentDate);
+}
 
 // Enables the text to be saved in the specific time parameter 
 
